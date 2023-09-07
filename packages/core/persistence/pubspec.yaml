@@ -1,0 +1,22 @@
+name: persistence
+description: The common persistence logic
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get_it: ^7.6.0
+  injectable: ^2.3.0
+  shared_preferences: ^2.2.1
+
+dev_dependencies:
+  build_runner: ^2.4.6
+  flutter_lints: ^2.0.2
+  injectable_generator: ^2.4.0
+
+flutter:
+  uses-material-design: true
